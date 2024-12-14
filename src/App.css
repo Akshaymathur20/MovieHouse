@@ -6,12 +6,10 @@
   border: 0;
   box-sizing: border-box;
 }
-
 :root {
   --font-roboto: "Roboto Slab", serif;
   --font-raleway: "Raleway", sans-serif;
 }
-
 body {
   font-family: var(--font-roboto);
   background-color: #d1d5d7;
@@ -181,7 +179,9 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    color: #333;  
+    color: white;  
+    
+     background-color: black;
     font-size: 1rem;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
     position: fixed;
